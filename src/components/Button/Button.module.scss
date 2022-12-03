@@ -1,0 +1,103 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 108.75px;
+    height: 40px;
+    font-weight: 500;
+    padding: 5px 11px;
+    border: 1px solid;
+    border-radius: 2px;
+    user-select: none;
+    color: var(--text-primary-color);
+
+    & + .wrapper {
+        margin-left: 12px;
+    }
+
+    span:first-child {
+        margin-right: 8px;
+    }
+
+    .title {
+        line-height: 2rem;
+    }
+
+    .image {
+        border-radius: 100rem;
+        width: 24px;
+        height: 24px;
+        margin-right: 24px;
+    }
+}
+
+// Button types
+.rounded {
+    border-color: var(--button-rounded-border-color);
+    background-color: var(--button-rounded-background-color);
+    border-radius: 100rem;
+    min-width: fit-content;
+
+    span:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        background-color: var(--general-border-color);
+    }
+}
+
+.primary {
+    border-color: var(--button-primary-color);
+    background-color: transparent;
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+    .icon {
+        color: var(--button-primary-color);
+    }
+
+    .title {
+        color: var(--button-primary-color);
+        letter-spacing: 0.5px;
+    }
+
+    &:active {
+        background-color: var(--button-primary-active-color);
+    }
+}
+
+.subscribe {
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-radius: 3px;
+    margin: 0 3px 16px;
+    background-color: var(--subscribe-button-background-color);
+    height: 39px;
+    min-width: 112px;
+
+    .title {
+        line-height: 1.7rem;
+        letter-spacing: 0.5px;
+    }
+
+    span:first-child {
+        margin-right: 0;
+    }
+}
+
+// Button size
+.small {
+    padding: 0 12px;
+    width: unset;
+    height: 32px;
+    font-weight: 400;
+
+    .title {
+        letter-spacing: 0.2px;
+    }
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}

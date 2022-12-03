@@ -1,0 +1,28 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    border: 1px solid var(--general-border-color);
+    border-top: none;
+    background-color: var(--white-color);
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 100rem;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+}
+
+.desc {
+    color: rgb(6, 95, 212);
+    margin-top: 8px;
+    font-weight: 400;
+    cursor: pointer;
+}
