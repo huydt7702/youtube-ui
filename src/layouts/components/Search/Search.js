@@ -34,7 +34,7 @@ function Search() {
 
         const fetchApi = async () => {
             const res = await axios.get(
-                'https://corsanywhere.herokuapp.com/http://suggestqueries.google.com/complete/search',
+                'https://cors-anywhere.herokuapp.com/http://suggestqueries.google.com/complete/search',
                 {
                     params: {
                         q: debouncedValue,

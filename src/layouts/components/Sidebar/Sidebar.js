@@ -87,17 +87,17 @@ const LIBRARY_LOGIN = [
 
 const SUBSCRIPTIONS = [
     {
-        image: 'https://yt3.ggpht.com/Y7ypZe5mKqqUxTGIAjI1Ng_DvP2_eDQDWvCWaTAfxxY4rYNtFxA5hf3PAw0YsAWfgQ_5jyPVQnA=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.ggpht.com/3ErdBd0bg2Qw5rKdqDK-7vPAf0tirRuodlGGZuhZePQcjEu8i5KniCN-EUCBtQkSOy14M26O=s176-c-k-c0x00ffffff-no-rj-mo',
         title: 'English Speeches',
         pathname: '/EnglishSpeeches',
     },
     {
-        image: 'https://yt3.ggpht.com/wgneNTiW753q5G6XMnjyNLAzReR4TVFJryTKTpIqJefrKMyhABPwfnyNWIoT5NNGstFlva1tgw=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.ggpht.com/UsflU74uvka_3sejOu3LUGwzOhHJV0eIYoWcvOfkOre_c12uIN4ys-QqRlAkbusEmbZjTA-b=s176-c-k-c0x00ffffff-no-rj-mo',
         title: 'F8 Official',
         pathname: '/F8VNOfficial',
     },
     {
-        image: 'https://yt3.ggpht.com/dgZwDRAhI3JFzmKIQFr5OPemgZ2swu5QOyn1N58eSs4bLREQ1SMQ6AIwGLwajKwAClOSZKibwg=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/yJLMdoVY9K4sujPxlVT3t7iaOd50RbYBVGMSDfbpx980hvIPNw0skSzn24Ct3u26DZKHkCbT=s176-c-k-c0x00ffffff-no-rj',
         title: 'FAP TV',
         pathname: '/FAPtivi',
     },
@@ -124,32 +124,32 @@ const SUBSCRIPTIONS = [
 
 const BEST_OF_YOUTUBE = [
     {
-        image: 'https://yt3.ggpht.com/xsDSSLJI0qYCHlbMEsplRLtfEPprTs0vCd9enMGhPUf-0njEXP-oUXDR-9smdvw54YsIoxp5=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/vCqmJ7cdUYpvR0bqLpWIe8ktaor4QafQLlfQyTuZy-M9W_YafT8Wo9kdsKL2St1BrkMRpVSJgA=s900-c-k-c0x00ffffff-no-rj',
         title: 'Music',
         pathname: '/Music',
     },
     {
-        image: 'https://yt3.ggpht.com/xc70YQJtu1BAzd_Bn7r95lCz9ikZEAa8kwtoo0KokMH3K1IjWaYE1AJEaI9nNCU-gJtzWCs94zc=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/mUhuJiCiL8jf0Ngf9sh7BFBZCO0MUL2JyH_5ElHbV2fd13hxZ9zQ3-x-YePA_-PCUUH360G0=s88-c-k-c0x00ffffff-no-rj-mo',
         title: 'Sports',
         pathname: '/Sports',
     },
     {
-        image: 'https://yt3.ggpht.com/Z93wWWSiz1Y1lFJT5oF3DE2juR63ImkuiQPswERpXE1hNcv_-lWbrhF7nDz7CqLSErldOHjRcA=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/pzvUHajbQDLDt63gKFYUX445k3VprUs8CeJFpNTxGQZlk0grOSkAqU8Th1_C97dyYM3nENgjbw=s88-c-k-c0x00ffffff-no-rj-mo',
         title: 'Gaming',
         pathname: '/Gaming',
     },
     {
-        image: 'https://yt3.ggpht.com/1xQXm-F7m34BU6cvSpMQBizSeoEDZxJibXQ2bO2Qrp37hl6IIyZwPw23pH4lOUwTSp2HxQiaTw=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/qj80UVa3fFaLL9c0Cgd-BrEPuShbZnGBqrh2AArMRlfH2DZRAl4ilScrSqIRR3WIu01lSlJM=s88-c-k-c0x00ffffff-no-rj-mo',
         title: 'News',
         pathname: '/News',
     },
     {
-        image: 'https://yt3.ggpht.com/8D6JlsnvwDZFMdcbjqVji82kggP3aXXbO-yBD0RFrKlp4G1zNt9wcqcVTSPnAI8GuUAbDYQwsg=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/uL4xlF3_o_605wg887ENKIaMdEwJn5aP5t-r7HRpQshXL5gIn2AKfNfjZkRN15kTcgS3wK7c=s88-c-k-c0x00ffffff-no-rj-mo',
         title: 'Live',
         pathname: '/Live',
     },
     {
-        image: 'https://yt3.ggpht.com/jDlznW6xboPVEAS3K4SCAp5eD1McSWAXpqStyW93VCKCj3p0tjcUzQ0SXpDQ9jG8u05b7ybc=s88-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/ljyOn_c3m39msB4Vw_qsCneJn9lYMH43fBpuTkbLIQu0rqyFApK1qvxJ_DJy8mvyZs4-op5i39Q=s176-c-k-c0x00ffffff-no-rj',
         title: '360° Video',
         pathname: '/360Video',
     },
