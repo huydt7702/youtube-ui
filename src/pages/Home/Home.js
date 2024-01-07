@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Product from '~/components/Product';
 import * as videoService from '~/services/videoService';
 import styles from './Home.module.scss';
+import Loading from './Loading';
 import ScrollHome from './ScrollHome';
 
 const cx = classNames.bind(styles);
@@ -69,10 +70,12 @@ const SCROLL_HOME_DATA = [
 
 function Home() {
     const [homeVideos, setHomeVideos] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         const fetchApi = async () => {
+            setLoading(true);
+
             const result = await videoService.video('mostPopular');
             setHomeVideos(result);
 
@@ -97,6 +100,7 @@ function Home() {
             <div className={cx('products')}>
                 <div className={cx('grid')}>
                     <div className={cx('row', 'yt-gutter')}>
+                        {loading && <Loading />}
                         {homeVideos.map((item) => (
                             <div key={item.id} className={cx('col', 'l-3', 'm-4', 'c-12')}>
                                 <Product data={item} />
